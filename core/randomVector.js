@@ -1,8 +1,7 @@
 class RandomVector extends Vector {
-    constructor(length = 1) {
-        super()
+    constructor(min = -1, max = 1) {
         const angle = Math.random() * PI
-        this.x = length * Math.cos(angle)
-        this.y = length * Math.sin(angle)
+        super(Math.cos(angle), Math.sin(angle))
+        this.mult(random(min, max))
     }
 }

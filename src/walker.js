@@ -1,22 +1,29 @@
-class Walker {
+class Walker extends PhysicalObject {
     constructor(x, y) {
+        super(new RandomVector(1, 3), new Vector())
         this.pos = new Vector(x, y)
         this.r = 25
-        
-        this.vel = new RandomVector()
-        this.vel.mult(random(1, 3))
+    }
+
+    edges() {
+        if (this.pos.y + this.r >= height) {
+            this.pos.y = height - this.r
+            this.vel.y *= -1
+        }
+
+        if (this.pos.x + this.r >= width) {
+            this.pos.x = width - this.r
+            this.vel.x *= -1
+        } else if (this.pos.x - this.r <= 0) {
+            this.pos.x = this.r
+            this.vel.x *= -1
+        }
     }
     
     update() {
-        let mouse = new Vector(mouseX, mouseY)
-
-        this.acc = Vector.sub(mouse, this.pos)
-        this.acc.setMag(1)
-        
         this.vel.add(this.acc.x, this.acc.y)
-        this.vel.limit(5)
-
         this.pos.add(this.vel.x, this.vel.y)
+        this.acc.set(0, 0)
     }
 
     show() {
