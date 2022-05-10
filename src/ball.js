@@ -1,8 +1,11 @@
-class Walker extends PhysicalObject {
-    constructor(x, y) {
-        super(new RandomVector(1, 3), new Vector())
+class Ball extends PhysicalObject {
+    constructor(x, y, m) {
+        const vel = new Vector()
+        const acc = new Vector()
+        const mass = m
+        super(vel, acc, mass)
         this.pos = new Vector(x, y)
-        this.r = 25
+        this.r = Math.sqrt(mass) * 10
     }
 
     edges() {
