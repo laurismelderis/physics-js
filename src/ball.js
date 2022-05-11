@@ -22,6 +22,46 @@ class Ball extends PhysicalObject {
             this.vel.x *= -1
         }
     }
+
+    friction() {
+        /**
+         * Calculation
+         * 
+         * F(vec) = -1 * μ * N * v(uvec)
+         * 
+         * Where:
+         * (vec) - vectorial
+         * (uver) - unit vectorial
+         * F - Force
+         * μ - coeficient of friction (specific constant)
+         * N - strength of a normal vector force
+         * v - velocity
+         * 
+         * At the moment we are combining μ with N
+         * because μ is a constant and N at this moment
+         * is always the same
+         * 
+         * So the new formula looks like
+         * F(vec) = -1 * C * v(uvec)
+         * 
+         * Where:
+         * C - is a constant or μ * N
+         */
+
+        let diff = height - (this.pos.y + this.r)
+        if(diff < 1) {
+            // Direction of friction
+            let friction = this.vel.copy() // F
+            friction.normalize()
+            friction.mult(-1)
+
+            // Magnitude of friction
+            let mu = 0.1 // μ
+            let normal = this.mass // N
+            friction.setMag(mu * normal) // set force magnitude of C
+            this.applyForce(friction)
+        }
+    }
     
     update() {
         this.vel.add(this.acc.x, this.acc.y)
