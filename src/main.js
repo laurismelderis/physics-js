@@ -5,7 +5,7 @@ const wind = new Vector(0.1, 0)
 
 function setup() {
     for (let i = 1; i <= 8; i++) {
-        balls.push(new Ball(width/i, height/2, random(1, 15)))
+        balls.push(new Ball(i*60, height/2, random(1, 15)))
     }
     console.table(balls)
 }
@@ -16,8 +16,9 @@ function draw() {
     balls.forEach((ball) => {
         let weight = Vector.mult(gravity, {x: ball.mass, y: ball.mass})
         ball.applyForce(weight)
-        ball.applyForce(wind)
+        // ball.applyForce(wind)
         ball.friction()
+        ball.drag()
 
         ball.update()
         ball.edges()

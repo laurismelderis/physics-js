@@ -27,12 +27,12 @@ class Ball extends PhysicalObject {
         /**
          * Calculation
          * 
-         * F(vec) = -1 * μ * N * v(uvec)
+         * Ff(vec) = -1 * μ * N * v(uvec)
          * 
          * Where:
          * (vec) - vectorial
          * (uver) - unit vectorial
-         * F - Force
+         * Ff - friction force
          * μ - coeficient of friction (specific constant)
          * N - strength of a normal vector force
          * v - velocity
@@ -40,12 +40,6 @@ class Ball extends PhysicalObject {
          * At the moment we are combining μ with N
          * because μ is a constant and N at this moment
          * is always the same
-         * 
-         * So the new formula looks like
-         * F(vec) = -1 * C * v(uvec)
-         * 
-         * Where:
-         * C - is a constant or μ * N
          */
 
         let diff = height - (this.pos.y + this.r)
@@ -58,7 +52,7 @@ class Ball extends PhysicalObject {
             // Magnitude of friction
             let mu = 0.1 // μ
             let normal = this.mass // N
-            friction.setMag(mu * normal) // set force magnitude of C
+            friction.setMag(mu * normal)
             this.applyForce(friction)
         }
     }
