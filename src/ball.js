@@ -1,11 +1,11 @@
 class Ball extends PhysicalObject {
     constructor(x, y, m) {
-        const vel = new Vector()
+        const vel = new RandomVector(1, 5) // Set vel to 0 intially
         const acc = new Vector()
         const mass = m
         super(vel, acc, mass)
         this.pos = new Vector(x, y)
-        this.r = Math.sqrt(mass) * 10
+        this.r = Math.sqrt(mass) * 5
     }
 
     edges() {
