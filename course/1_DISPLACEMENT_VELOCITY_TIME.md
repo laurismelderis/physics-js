@@ -22,6 +22,16 @@ Displacement is defined to be the change in position of an object.
 
 Displacement $= \Delta x = x_f - x_0$
 
-$\Delta x$ is the symbol used to represent displacement.
-$x_f$ refers to the value of the final position.
-$x_0$ refers to the value of the initial position.
+- $\Delta x$ is the symbol used to represent displacement.
+- $x_f$ refers to the value of the final position.
+- $x_0$ refers to the value of the initial position.
+
+## Velocity
+
+Velocity is a vector that represents a magnitude and direction.
+
+$\vec{v} = \frac{\vec{s}}{t}$
+
+- $\vec{v}$ is **velocity**
+- $\vec{s}$ is a **displacement**
+- $t$ is **time**
