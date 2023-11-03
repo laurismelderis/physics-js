@@ -26,6 +26,16 @@ Displacement $= \Delta x = x_f - x_0$
 - $x_f$ refers to the value of the final position.
 - $x_0$ refers to the value of the initial position.
 
+## Speed (Rate)
+
+Speed is scalar value that reperesent how fast things moved.
+
+$r = \frac{d}{t}$
+
+- $r$ is rate (speed)
+- $d$ is distance
+- $t$ is time
+
 ## Velocity
 
 Velocity is a vector that represents a magnitude and direction.
