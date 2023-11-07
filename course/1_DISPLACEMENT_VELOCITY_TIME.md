@@ -87,7 +87,7 @@ $v_{instantaneous} = v_{average} = \frac{\Delta x}{\Delta t} = \frac{x_f - x_0}{
 
 ## SI System
 
-- $r$ - $m$
-- $d$ - $m$
-- $t$ - $s$
-- $v$ - $\frac{m}{s}$
+- $r$ - $m$ (meters)
+- $d$ - $m$ (meters)
+- $t$ - $s$ (seconds)
+- $v$ - $\frac{m}{s}$ (meters per second)

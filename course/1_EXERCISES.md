@@ -6,11 +6,11 @@ What was the average speed and average velocity of the iguana for the entire tri
 
 **Distance travaled (Range)**
 
-$r = 12m + 16m = 28m$
+$r = 12m + 16m = 28\text{ m}$
 
 **Time interval**
 
-$t = 20s + 8s = 28s$
+$t = 20s + 8s = 28\text{ s}$
 
 _**Average speed**_
 
@@ -66,3 +66,32 @@ $t = 4\text{ s}$
 $V_{instantaneous} = 0\frac{m}{s}$
 
 The instantaneous speed is 0, because the x or traveled distance is not changing, as we can see in graph.
+
+## Exercise 3: Hungry walrus
+
+The motion of a hungry walrus walking back and forth horizontally looking for food is given by the graph below, which shows the horizontal position $x$ as a function of time $t$.
+
+What was the instantaneous velocity of the walrus at the following times: $2\text{ s}$, $5\text{ s}$, and $8\text{ s}$?
+
+<img src="./1_EXERCISE_IMG_2.png">
+
+$v_{instantaneous}(t = 2) = \frac{3 - 1}{4 - 0} = \frac{1}{2}\frac{m}{s}$
+
+$v_{instantaneous}(t = 5) = \frac{3 - 3}{6 - 4} = 0\frac{m}{s}$
+
+$v_{instantaneous}(t = 8) = \frac{0 - 3}{9 - 6} = -1\frac{m}{s}$
+
+## Exercise 4: Happy bird
+
+The motion of an extraordinarily jubilant bird flying straight up and down is given by the graph below, which shows the vertical position $y$ as a function of time $t$. Answer the following questions about the motion of the bird.
+
+- What was the average velocity of the bird between $t=0\text{ s}$ and $t=10\text{ s}$?
+- What was the average speed of the bird between $t=0\text{ s}$ and $t=10\text{ s}$?
+
+<img src="./1_EXERCISE_IMG_3.png">
+
+**Average velocity**
+
+$v_{avg} = \frac{\Delta x}{\Delta t} = \frac{displacement}{\text{time interval}} = \frac{6 - 7}{10} = -\frac{1}{10}\frac{m}{s}$ ($t=0\text{ s}$ and $t=10\text{ s}$)
+
+$V_{avg} = \frac{d}{t} = \frac{distance}{\text{time interval}} = \frac{5 + 0 + 4}{10} = \frac{9}{10}\frac{m}{s}$ ($t=0\text{ s}$ and $t=10\text{ s}$)
