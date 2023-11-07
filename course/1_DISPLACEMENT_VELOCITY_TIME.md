@@ -45,3 +45,49 @@ $\vec{v} = \frac{\vec{s}}{t}$
 - $\vec{v}$ is **velocity**
 - $\vec{s}$ is a **displacement**
 - $t$ is **time**
+
+## Time
+
+Time is a scalar value that represents a time.
+
+**Scalar formula:**
+
+$t = \frac{d}{r}$
+
+- $t$ is **time**
+- $d$ is a **distance**
+- $r$ is **rate**
+
+**OR**
+
+**Vector formula:**
+
+$t = \frac{\vec{s}}{\vec{v}}$
+
+- $t$ is **time**
+- $\vec{s}$ is a **displacement**
+- $\vec{v}$ is **velocity**
+
+## Instantaneous speed
+
+**Instantaneous speed** - speed at a particular moment in time. Or it's the magnitude of instantaneous velocity.
+
+**Instantaneous velocity** - a velocity at a particular moment in time. Simply is is the average velocity at a specific instant in time or over an infinitesimally small time interval. Mathematically, finding instantaneous velocity $v$ at a precise instant time $t$ can involve taking a limit, a calculus operation.
+
+$v_{instantaneous} = v_{average} = \frac{\Delta x}{\Delta t} = \frac{x_f - x_0}{t_f - t_0}$
+
+- $v_{instantaneous}$ is **instantaneous velocity**
+- $v_{average}$ is **average velocity**
+- $\Delta x$ is **change in position** (displacement)
+- $\Delta t$ is **change in time**
+- $x_f$ is final position
+- $x_0$ is beginning position
+- $t_f$ is final time
+- $t_0$ is beginning time
+
+## SI System
+
+- $r$ - $m$
+- $d$ - $m$
+- $t$ - $s$
+- $v$ - $\frac{m}{s}$
