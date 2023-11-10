@@ -35,7 +35,7 @@ Determine the following for the dolphin:
 3. instantaneous velocity at time $t = 1\text{ s}$
 4. instantaneous speed at time $t = 4\text{ s}$
 
-<img src="./1_EXERCISE_IMG_1.png">
+<img src="./assets/1_EXERCISE_IMG_1.png" style="width: 500px;">
 
 **1. Average velocity**
 
@@ -73,7 +73,7 @@ The motion of a hungry walrus walking back and forth horizontally looking for fo
 
 What was the instantaneous velocity of the walrus at the following times: $2\text{ s}$, $5\text{ s}$, and $8\text{ s}$?
 
-<img src="./1_EXERCISE_IMG_2.png">
+<img src="./assets/1_EXERCISE_IMG_2.png" style="width: 500px;">
 
 $v_{instantaneous}(t = 2) = \frac{3 - 1}{4 - 0} = \frac{1}{2}\frac{m}{s}$
 
@@ -88,7 +88,7 @@ The motion of an extraordinarily jubilant bird flying straight up and down is gi
 - What was the average velocity of the bird between $t=0\text{ s}$ and $t=10\text{ s}$?
 - What was the average speed of the bird between $t=0\text{ s}$ and $t=10\text{ s}$?
 
-<img src="./1_EXERCISE_IMG_3.png">
+<img src="./assets/1_EXERCISE_IMG_3.png" style="width: 500px;">
 
 **Average velocity**
 

@@ -11,3 +11,9 @@ $\vec{a}=\frac{\Delta\vec{v}}{\Delta t} = \frac{\vec{v_f} - \vec{v_i}}{\Delta t}
 **Final velocity** lets you find the final velocity $v_f$ after a time $\Delta t$ of constant acceleration $a$.
 
 $v_f = v_i + a\Delta t$
+
+**Jerk (Rāviens)**
+
+Jerk defines how fast or slow the acceleration increases.
+
+$j = \frac{\Delta \vec{a}}{\Delta t}$
