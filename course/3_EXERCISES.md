@@ -19,6 +19,3 @@ $\vec{s} = \vec{v}_i * \Delta t + \frac{1}{2} * \vec{a} * (\Delta t)^2$
 similarly
 
 $d = v_i t + \frac{1}{2}at^2$
-
-$$
-$$
