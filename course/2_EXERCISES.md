@@ -39,7 +39,7 @@ Select all of the following statements that are true about the speed and acceler
 
 <img src="./assets/2_EXERCISE_IMG_1.png" style="width: 500px;">
 
-True statements are **A**, because the velocity after every second is getting greater and greater, and **D**, because after every second the velocity is increasing with a smaller.
+True statements are **A**, because the velocity after every second is getting greater and greater, and **D**, because after every second the velocity is increasing with smaller units.
 
 False statements are **C and B**
 
